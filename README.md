@@ -4,8 +4,8 @@ A model of multidimensional Naive Bayes classifier.
 ## Description
 The algorithm works in the following way:
 - Prepares a dataset: tokenizes and lemmatizes messages, removing stop words. 
-- Divide the dataset into train and test sets.
-- Fit a model using Naive Bayes spam filtering method.
+- Divides the dataset into train and test sets.
+- Fits a model using Naive Bayes spam filtering method.
 - Predicts classes to the training set samples.
 - Evaluates the model using precision, recall and f1-metrics. 
 
